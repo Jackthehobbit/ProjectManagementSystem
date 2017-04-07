@@ -1,4 +1,4 @@
-﻿using ProjectManagementSystemDatabase.Entities;
+﻿using ProjectManagementSystemEntities;
 using System.Data.Entity;
 
 namespace ProjectManagementSystemDatabase

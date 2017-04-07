@@ -1,4 +1,4 @@
-﻿using ProjectManagementSystemDatabase.Entities;
+﻿using ProjectManagementSystemEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ namespace ProjectManagementSystemDatabase
             ProjectManagementContext con = new ProjectManagementContext();
 
             Project prj = new Project();
-            prj.Code = "TEST1";
+            prj.Code = "TEST";
             prj.Name = "THIS IS A FULL NAME";
             prj.ShortName = "this is a SNAM";
             prj.Description = "Desc";
