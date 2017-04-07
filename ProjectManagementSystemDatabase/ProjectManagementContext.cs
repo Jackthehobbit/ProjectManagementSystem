@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
-using ProjectManagementSystemDatabase.Entities;
+using ProjectManagementSystemDatabase.Entities.Project;
 
 namespace ProjectManagementSystemDatabase
 {
-    public class ProjectManagementContext :DbContext
+    public class ProjectManagementContext
     {
         public ProjectManagementContext() : base("ProjectManagementConnectionString")
         {
 
         }
 
-        public DbSet<Project> Projects { get; set; }
+        public DbSet<Project> Project { get; set; }
     }
 }

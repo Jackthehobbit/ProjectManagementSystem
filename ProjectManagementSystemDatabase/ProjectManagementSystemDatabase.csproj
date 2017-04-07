@@ -57,8 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Project.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Entities\Project\Project.cs" />
     <Compile Include="MySqlConfiguration.cs" />
     <Compile Include="MySqlHistoryContext.cs" />
     <Compile Include="ProjectManagementContext.cs" />
