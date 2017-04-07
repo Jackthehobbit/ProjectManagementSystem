@@ -12,7 +12,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            ProjectRepo repo = new ProjectRepo();
+            ProjectRepository repo = new ProjectRepository();
             Console.Read();
 
 
