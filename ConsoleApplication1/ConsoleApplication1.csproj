@@ -72,6 +72,10 @@
       <Project>{832f7199-3d1a-4700-b561-eaca42c31c67}</Project>
       <Name>ProjectManagementSystemDatabase</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProjectManagementSystemEntities\ProjectManagementSystemEntities.csproj">
+      <Project>{f4a77706-fcec-46cb-a258-94dcf95eb070}</Project>
+      <Name>ProjectManagementSystemEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

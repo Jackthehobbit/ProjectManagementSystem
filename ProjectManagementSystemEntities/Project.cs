@@ -17,5 +17,19 @@ namespace ProjectManagementSystemEntities
         [MaxLength(255)]
         public string Description { get; set; }
 
+        public Project()
+        {
+
+        }
+
+        public Project(string parCode,string parShortName,string parName,string parDescription)
+        {
+            Code = parCode;
+            ShortName = parShortName;
+            Name = parName;
+            Description = parDescription;
+
+        }
+
     }
 }
